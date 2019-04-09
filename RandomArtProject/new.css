@@ -1,0 +1,289 @@
+#container {
+  
+}
+
+#kop {
+ 
+}
+
+#menuknoppen {
+  height: 4%;
+  width : 100%;
+  background-color: gray;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+ 
+#RandomArtSection{
+  height: 32%;
+  width : 60%;
+  z-index: 0;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 4%;
+  left: 0;
+  background-image: url("images/RandomArtSectionBackground.png");
+  transition: width 0.2s;
+  -webkit-transition: width 0.2s; 
+}
+
+#RandomArtSection:hover {
+  position: fixed;
+  z-index: 1;
+  width: 75%; 
+}
+
+#SocialMediaSection{
+  height: 32%;
+  width : 60%;
+  z-index: 0;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 36%;
+  left: 0; 
+  background-image: url("images/social-media-1.png");
+  transition: width 0.2s;
+  -webkit-transition: width 0.2s;
+}
+
+#SocialMediaSection:hover {
+  position: fixed;
+  z-index: 1;
+  width: 75%; 
+}
+
+#NoiseSection{
+  height: 32%;
+  width : 60%;
+  z-index: 0;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 68%;
+  left: 0; 
+  background-image: url("images/example.png");
+  transition: width 0.2s;
+  -webkit-transition: width 0.2s;
+}
+
+#NoiseSection:hover {
+  position: fixed;
+  z-index: 1;
+  width: 75%; 
+}
+
+#HomePageAnimationSection{
+  height: 96%;
+  width : 40%;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 4%;
+  left: 60%;
+  z-index: 0;
+}  
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown .dropbtn {
+  font-size: calc(1vw + 1vh - 1vmin);
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: Andale Mono;
+  margin: 0;
+  height: 96%;
+  position: relative;
+  text-align: center;
+  width: 100px;
+}
+
+.menuknoppen a:hover, .dropdown:hover .dropbtn {
+  background-color: darkgray;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  position: relative;
+  z-index: 2;
+}
+
+.dropdown-content a {
+  position: relative;
+  font-family: monospace, monospace;
+  color: black;
+  padding: 8px 0px;
+  text-decoration: none;
+  display: block;
+  background-color: #F5F5F5;
+  text-align: center; 
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: relative;
+}
+
+#hub {
+  position: fixed;
+  font-size: calc(1vw + 1vh - 1vmin);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Andale Mono; 
+  line-height: 175%;
+  margin: auto;
+  left: 50%; 
+  margin-left: -50px;
+}
+
+#hubDIV {
+  margin: auto;
+  position: fixed;
+  background-color: inherit;
+  height: 4%;
+  width: 100px;
+  top: 0%;
+  left: 50%; 
+  margin-left: -50px;
+}
+
+#hubDIV:hover {
+  background-color: darkgray;
+  text-align: center; 
+}
+
+
+#login {
+  float: right;
+  font-size: calc(1vw + 1vh - 1vmin);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Andale Mono; 
+  position: relative;
+  line-height: 175%;
+}
+
+#loginDIV {
+  background-color: inherit;
+  height: 100%;
+  width: 100px;
+  float: right;
+}
+
+#loginDIV:hover {
+  background-color: darkgray;
+  text-align: center; 
+}
+
+
+#register {
+  float: right;
+  font-size: calc(1vw + 1vh - 1vmin);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Andale Mono; 
+  position: relative;
+  line-height: 175%;
+}
+
+#registerDIV {
+  background-color: inherit;
+  height: 100%;
+  width: 100px;
+  float: right;
+}
+
+#registerDIV:hover {
+  background-color: darkgray;
+  text-align: center; 
+}
+#account {
+  float: right;
+  font-size: calc(1vw + 1vh - 1vmin);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Andale Mono; 
+  position: relative;
+  line-height: 175%;
+}
+
+#accountDIV {
+  background-color: inherit;
+  height: 100%;
+  width: 100px;
+  float: right;
+}
+
+#accountDIV:hover {
+  background-color: darkgray;
+  text-align: center; 
+}
+
+#button  {
+
+}
+
+#navbar {
+
+}
+
+#LoginButton {
+ 
+}
+
+
+#LogoutButton {
+ 
+}
+
+
+
+#TopAnchor
+
+#logbackin
+
+#myCanvas
+
+#onclickbutton {
+
+}
+
+
+#message
+
+#EmailRegister
+
+#passwordRegister
+
+#confirmpassRegister
+
+#SubmitRegister
